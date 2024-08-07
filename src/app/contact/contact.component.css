@@ -1,0 +1,35 @@
+.title *{
+    color: #2C3E50;
+
+}
+form input:focus{
+    box-shadow: none;
+}
+form label{
+    color: #1ABC9C;
+    position: relative;
+    bottom: -40px;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+form label.show {
+    /* display: block; */
+    bottom: 0; 
+    /* z-index: 2; */
+}
+form label.hide {
+    bottom: -40px; 
+}
+form button{
+    background-color: #1ABC9C;
+    /* border: solid 1px #1ABC9C; */
+    border: none;
+    color: #fff;
+    padding: 5px 15px;
+    
+}
+.castume-mx-width{
+    max-width: 700px;
+    margin: 0 auto;
+}

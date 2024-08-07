@@ -1,0 +1,82 @@
+<section class="portfolio py-4">
+    <div class="container mt-5">
+        <div class="content pt-5">
+            <div class="title">
+                <h1 class="fw-bold text-center">PORTFOLIO COMPONENT</h1>
+                <app-star color="#2C3E50"></app-star>
+            </div>
+            <div class="images mt-3">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <!-- item -->
+                    <div class="col mb-3" (click)="showPopLayer('./assets/poert1.png')">
+                        <div class="card rounded rounded-4 overflow-hidden position-relative">
+                            <img src="./assets/poert1.png" class="w-100" alt="home">
+                            <div   class="layer position-absolute top-0 start-0 bottom-0 end-0 d-flex justify-content-center align-items-center">
+                                <i class="text-white fa-solid fa-plus fa-6x"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="col mb-3" (click)="showPopLayer('./assets/port2.png')">
+                        <div class="card rounded rounded-4 overflow-hidden position-relative">
+                            <img src="./assets/port2.png" class="w-100" alt="home">
+                            <div
+                                class="layer position-absolute top-0 start-0 bottom-0 end-0 d-flex justify-content-center align-items-center">
+                                <i class="text-white fa-solid fa-plus fa-6x"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="col mb-3" (click)="showPopLayer('./assets/port3.png')">
+                        <div class="card rounded rounded-4 overflow-hidden position-relative">
+                            <img src="./assets/port3.png" class="w-100" alt="home">
+                            <div
+                                class="layer position-absolute top-0 start-0 bottom-0 end-0 d-flex justify-content-center align-items-center">
+                                <i class="text-white fa-solid fa-plus fa-6x"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="col mb-3" (click)="showPopLayer('./assets/poert1.png')">
+                        <div class="card rounded rounded-4 overflow-hidden position-relative">
+                            <img src="./assets/poert1.png" class="w-100" alt="home">
+                            <div
+                                class="layer position-absolute top-0 start-0 bottom-0 end-0 d-flex justify-content-center align-items-center">
+                                <i class="text-white fa-solid fa-plus fa-6x"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="col mb-3" (click)="showPopLayer('./assets/port2.png')">
+                        <div class="card rounded rounded-4 overflow-hidden position-relative">
+                            <img src="./assets/port2.png" class="w-100" alt="home">
+                            <div
+                                class="layer position-absolute top-0 start-0 bottom-0 end-0 d-flex justify-content-center align-items-center">
+                                <i class="text-white fa-solid fa-plus fa-6x"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="col mb-3" (click)="showPopLayer('./assets/port3.png')">
+                        <div class="card rounded rounded-4 overflow-hidden position-relative">
+                            <img src="./assets/port3.png" class="w-100" alt="home">
+                            <div
+                                class="layer position-absolute top-0 start-0 bottom-0 end-0 d-flex justify-content-center align-items-center">
+                                <i class="text-white fa-solid fa-plus fa-6x"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- <div class="col col-12 col-md-6 col-lg-4">
+
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+        <div (click) = "closePopLayer($event)" class="pop-layer position-fixed start-0 top-0 end-0 bottom-0 d-none h-100 justify-content-center align-items-center ">
+            <img src="" class=" z-2" alt="">
+        </div>
+    </div>
+</section>

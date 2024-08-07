@@ -1,0 +1,10 @@
+.footer{
+    /* background-color: var(--main-color); */
+    background-color: #2C3E50;
+}
+.copyright{
+    background-color: #1A252F;
+}
+ul li{
+    padding: 0.625rem;
+}

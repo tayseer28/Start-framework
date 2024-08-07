@@ -1,0 +1,30 @@
+:root{
+    /* --bs-tertiary-bg-rgb: 30, 32, 43; */
+    /* --bs-tertiary-bg-rgb: 30, 32, 43; */
+    --text-color: #ca3;
+    
+}
+.bg-body-tertiary{
+    --bs-tertiary-bg-rgb: 44, 62, 80;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity));
+    /* --bs-bg-opacity: 0.5; */
+    
+
+}
+.navbar{
+    transition: all 0.5s;
+}
+a{
+    color: var(--text-color);
+    width: fit-content;
+
+}
+/* nav{
+    padding-block: 0.6rem;
+} */
+nav *{
+    font-weight: 700;
+}
+.active-style{
+    background-color: #1ABC9C;
+}

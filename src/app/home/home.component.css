@@ -1,0 +1,9 @@
+.home{
+    background-color: #1ABC9C;
+    height: calc(100vh - 50px);
+}
+
+.avatar{
+    width: 85%;
+    margin: auto;
+}

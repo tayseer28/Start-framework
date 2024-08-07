@@ -1,0 +1,25 @@
+.icon-style{
+    width: fit-content;
+    margin: auto;
+    --icon-color: #fff;
+}
+.icon-style::before{
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: var(--icon-color);
+    position: absolute;
+    bottom: 35%;
+    right: 150%;
+    
+}
+.icon-style::after{
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: var(--icon-color);
+    position: absolute;
+    bottom: 35%;
+    left: 150%;
+    
+}

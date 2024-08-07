@@ -1,0 +1,37 @@
+.portfolio{
+    /* height: calc(100vh - 50px); */
+}
+.content *{
+    color: #2C3E50;
+}
+/* app-star .icon-style::after{
+    background-image: red;
+} */
+.layer{
+    background-color: #1ABC9C ;
+    opacity: 0;
+    transition: all 0.7s;
+}
+/* when hover over the card  */
+.card:hover .layer{
+    opacity: 0.9;
+}
+.pop-layer{
+    /* background-color: #1555ad; */
+   
+    
+}
+.pop-layer::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(21, 85, 173, 0.25);
+    z-index: 1;
+
+}
+.pop-layer img{
+    width: 600px;
+}
